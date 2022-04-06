@@ -1,0 +1,157 @@
+body {
+	font-family: "PT Sans", Sans-serif; /* Set all font in the page to Helvetica with font formating */
+	font-size: 100%; /* Generally set the font-size to 100% in the body - you can then change with em in the other areas */
+	line-height: 1.7em; /* The line-height property in CSS controls the space between lines of text. */
+	color: #000000; /* Hex Color Black */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #FEFBDD;
+    /* background-color: #EE789F; */ 
+    /* color: #FEFBDD; */ 
+}
+
+h1 {
+    font-family: "Oswald", serif;
+    line-height: 1em;
+    font-size: 500%; 
+    letter-spacing: 3px;
+    color: #EE789F; 
+}
+
+h2 {
+    font-size: 250%; 
+}
+
+p {
+    margin-left: 6em;
+    margin-right: 6em;
+    font-size: 100%;
+}
+
+strong {
+    color: #EE789F; 
+}
+
+nav {
+    text-align: center;
+    font-size: 25px;
+    line-height: 4.0em;
+}
+
+nav .selected button {
+    background-color: #e92264;
+}
+
+#content img {
+    margin-top: 1.5em; 
+    margin-bottom: 1.5em;
+}
+
+button {
+    font-family: "PT Sans", Sans-serif;
+    font-size: 16px;
+    border-width: 0em;
+    margin: 7px;
+    padding: 5px;
+    border-radius: 20px; 
+    width: 200px; 
+    height: 60px; 
+    background-color: #EE789F;
+    color:#FFF;
+}
+
+.menu button {
+    padding: 10px;
+    margin: 15px;
+    font-size: 30px;
+    color:#000;
+    width: 300px;
+}
+
+button:hover {
+    background-color: #e92264;
+}
+
+#links img{
+    margin-left: 13px; 
+    margin-right: 13px; 
+    opacity: 40%;
+}
+
+#links img:hover {
+    opacity: 100%;
+}
+
+#links a { 
+    color: #FEFBDD
+}
+
+iframe {
+    margin-bottom: 1.5em;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    width: 75%;
+    border: 3px solid #EE789F;
+    border-spacing: 3px;
+    border-collapse: collapse;
+}
+
+table th{
+    line-height: 30px;
+    padding: 2px;
+    border: 1.5px solid #EE789F;
+}
+
+fieldset {
+    border-width: 0;
+}
+
+fieldset #btnimage {
+    opacity: 50%;
+}
+
+fieldset #btnimage:hover {
+    opacity: 100%;
+}
+
+form legend {
+    font-size: 200%;
+}
+
+form label {
+    font-size: 130%;
+    font-style: italic;
+    line-height: 2em;
+}
+
+input {
+    padding: 10px;
+    border-radius: 10px;
+    border-width: 0;
+}
+
+input[type=text]{
+    width: 200px;
+}
+
+#accordion {
+    margin-left: 5em; 
+    margin-right: 5em; ;
+}
+
+footer {
+    clear: both; 
+    margin: 0; 
+    padding: .5em; 
+    color: #333333; 
+    font-variant: small-caps; 
+    font-size: .813em; 
+    text-align: center; 
+    border-top: 1px dotted #cccccc; 
+}
+

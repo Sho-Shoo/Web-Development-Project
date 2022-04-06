@@ -1,0 +1,204 @@
+<!DOCTYPE html> 
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8" />  
+    <meta name="author" content="Tianze Shou">
+    <meta name="keywords" 
+            content="Pamela's Diner official website"> 
+    <meta name="description" content="Pamela's Diner official site">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css" /> 
+    <link rel="stylesheet" media="all" type="text/css" href="css/jquery-ui.css"/> 
+    
+    <!-- Links to javascript files -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script> 
+
+    <script>
+        $(function() {
+            $( "#accordion" ).accordion(); 
+        }); 
+    </script>
+
+    <script src="js/scripts.js"></script>
+
+    <title> Pamela's Diner Menu</title> <!-- website title --> 
+
+</head>
+
+<body>
+    <div id="top_row">
+        <header>
+            <h1>Pamela's Diner</h1> 
+        </header>
+
+        <!-- links to other pages -->
+        <nav>
+            <a href="index.html"><button id="button1">Home</button></a>
+            <a class="selected" href="menu.html"><button id="button2">Menu & Info</button></a>
+            <a href="location.html"><button id="button3">Locations</button></a>
+            <a href="contact.html"><button id="button4">Contact</button></a>
+            <a href="comment.html"><button id="button9">What everyone's saying</button></a>
+        </nav>
+
+    </div>
+
+    <br/>
+
+    <div id="content">
+
+        <h2>Breakfast of the Champions</h2> 
+
+        <!-- Menu pdf's are from Pamela's official site --> 
+        <!-- https://www.pamelasdiner.com/menu --> 
+        <a class="menu" href="pdf/mt_lebanon.pdf">
+            <button id="button5">Mt. Lebanon</button>
+        </a>
+        <br/>
+        <a class="menu" href="pdf/shadyside.pdf">
+            <button id="button6">Shadyside</button>
+        </a>
+        <br/>
+        <a class="menu" href="pdf/sq_hill.pdf">
+            <button id="button7">Sq. Hill</button>
+        </a>
+        <br/>
+        <a class="menu" href="pdf/strip_district.pdf">
+            <button id="button8">Strip District</button>
+        </a>
+        <br/>
+        <a class="menu" href="location.html">
+            <button id="button10">Locations</button> 
+        </a>
+
+        <br/><br/><br/>
+
+        <h2>Featured Menu Items</h2> 
+
+        <div id="accordion">
+
+            <h3>Pamela's Omelet</h3>
+            <div>
+                <img src="images/omelet.jpeg" alt="Omelet picture"
+                     height="400" width="600"> 
+                <!-- Picture source: https://www.amazon.com/s?k=omelet+recipes&adgrpid=1331509143265281&hvadid=83219392262175&hvbmt=bp&hvdev=c&hvlocphy=96251&hvnetw=o&hvqmt=p&hvtargid=kwd-83219660502979%3Aloc-190&hydadcr=16153_10666073&tag=mh0b-20&ref=pd_sl_75gvwj26nt_p -->
+                <p>ac tortor vitae purus faucibus ornare suspendisse sed nisi lacus sed viverra tellus in hac habitasse platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus</p>
+            </div>
+
+            <h3>Pamela's Hash Brown</h3>
+            <div>
+                <img src="images/hash_brown.jpeg" alt="Hash brown and bacon picture"
+                     width="500" height="347">
+                <!-- picture source: https://www.amazon.com/s?k=ore+ida+hashbrowns&adgrpid=1341404753284778&hvadid=83837868417577&hvbmt=bb&hvdev=c&hvlocphy=96251&hvnetw=o&hvqmt=b&hvtargid=kwd-83838152029861%3Aloc-190&hydadcr=4823_10546644&tag=mh0b-20&ref=pd_sl_2j6mr6zlek_b -->
+                <p>adipiscing commodo elit at imperdiet dui accumsan sit amet nulla facilisi morbi tempus iaculis urna id volutpat lacus laoreet non curabitur gravida arcu ac tortor dignissim convallis aenean et tortor</p>
+            </div>
+
+            <h3>Pamela's Tiramitsu</h3>
+            <div>
+                <img src="images/tiramitsu.jpeg" alt="Tiramitsu picture"
+                     width="500" height="375"> 
+                <!-- picture source: https://www.folgerscoffee.com/recipes/desserts/mocha-tiramisu?gclid=b235c2007ff91ca13674a04732594b31&gclsrc=3p.ds -->
+                <p>morbi quis commodo odio aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat nibh sed pulvinar proin gravida hendrerit lectus</p>
+            </div>
+
+        </div>
+
+        <div id="table">
+            <h2>Contact Information</h2> 
+            <table>
+                <tr>
+                    <th>Address</th>
+                    <th>60 21st St, Pittsburgh, PA 15222</th>
+                </tr>
+                <tr>
+                    <th>Phone Number</th>
+                    <th>123.123.1234</th>
+                </tr>
+                <tr>
+                    <th>Email Address</th> 
+                    <th><a href="mailto:pam@pamelasdiner.com">pam@pamelasdiner.com</a></th>
+                </tr>
+                <tr>
+                    <th>Website</th>
+                    <th><a href="https://www.pamelasdiner.com/">https://www.pamelasdiner.com/</a></th>
+                </tr>
+                <tr>
+                    <th>Hours of Operation (Most Locations)</th> 
+                    <th>
+                        Mondays & Tuesdays: Closed <br/>
+                        Wednesdays & Thursdays: 10:00AM - 2:00PM <br/>
+                        Fridays ~ Sundays: 8:00AM - 4:00PM
+                    </th>
+                </tr>
+                <tr>
+                    <th colspan="2">
+                        Photo of Our Diner <br/>
+                        <img src="images/diner_photo.jpeg" alt="Pamela's Diner photo"
+                             width="375" height="280"> 
+                    </th>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+
+    <br/><br/><br/>
+    
+    <div id="bottom_row">
+        <!-- Pamela's Logo -->
+        <div id="logo">
+            <img src="images/pamelaslogo.png" 
+                 width="240" height="200"
+                 alt="Pamela's Logo">
+        </div>
+
+        <br/><br/>
+
+        <!-- Hours of operation of the diner -->
+        <div id="hours">
+            <h4>Hours of Operation</h4>
+            <li>Mondays & Tuesdays: Closed</li>
+            <li>Wednesdays & Thursdays: 10:00AM - 2:00PM</li>
+            <li>Fridays ~ Sundays: 8:00AM - 4:00PM</li>
+        </div>
+
+        <br/>
+
+        <!-- Useful links to social media pages -->
+        <div id="links">
+            <a href="https://www.youtube.com/watch?v=Rb0Dw2t-nTE" target="_blank">
+                <img src="images/youtube_icon.png" alt="Youtube Logo"/>
+            </a>
+            <a href="https://www.facebook.com/pamelasdiner/" target="_blank">
+                <img src="images/facebook_icon.png" alt="Facebook Logo"/>
+            </a>
+            <a href="https://www.yelp.com/biz/p-and-gs-pamelas-diner-pittsburgh-3" target="_blank">
+                <img src="images/yelp_logo.png"
+                     width="60" height="60"
+                     alt = "Yelp Logo"/>
+            </a>
+            <a href="https://www.instagram.com/pamelasdiner/?hl=en" target="_blank">
+                <img src="images/ig_logo.jpeg" 
+                     height="60" width="60" 
+                     alt = "Instagram Logo"/>
+            </a>
+            <a href="emailto:pam@pamelasdiner.com" target="_blank">
+                <img src="images/email_logo.jpeg"
+                     height="60" width="60"
+                     alt="email to pam@pamelasdiner.com"/>
+            </a>
+        </div>
+
+    </div>
+
+    <br/>
+
+    <footer>
+        &copy; Pamela's Diner <br>
+    </footer>
+
+</body>
+
+</html>
